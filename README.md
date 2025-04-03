@@ -2,10 +2,12 @@
 
 ## Workflows
 constants
+update entities - config and artifact entity
 config_entity
 artifact_entity
-components
-pipeline
+components - data ingestion, data validation, model evaluation etc
+pipeline - training pipeline.py : to manage which thing will be done in what order
+data ingestion -> data validation -> model trainer -> model pusher 
 app.py
 
 
