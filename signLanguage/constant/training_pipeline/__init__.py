@@ -39,10 +39,8 @@ MODEL_TRAINER_NO_EPOCHS: int = 30
 
 MODEL_TRAINER_BATCH_SIZE: int = 8
 
-
-
-# """
-# MODEL PUSHER related constant start with MODEL_PUSHER var name
-# """
-# BUCKET_NAME = "sign-lang-2024"
-# S3_MODEL_NAME = "best.pt"
+"""
+MODEL PUSHER related constant start with MODEL_PUSHER var name
+"""
+BUCKET_NAME = "sign-lang-model-2025"
+S3_MODEL_NAME = "best.pt"
