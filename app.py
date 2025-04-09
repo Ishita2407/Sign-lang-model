@@ -1,9 +1,11 @@
 # import sys, os
+from signLanguage.logger import logging
 from signLanguage.pipeline.training_pipeline import TrainPipeline
 # from signLanguage.exception import SignException
 # from signLanguage.utils.main_utils import decodeImage, encodeImageIntoBase64
 # from flask import Flask, request, jsonify, render_template,Response
 # from flask_cors import CORS, cross_origin
+# logging.info("Welcome to the project")
 obj = TrainPipeline()
 obj.run_pipeline()
 

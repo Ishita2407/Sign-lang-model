@@ -7,5 +7,4 @@ setup(
     author_email= 'superiorishita@gmail.com',
     packages= find_packages(),
     install_requires = []
-
 )

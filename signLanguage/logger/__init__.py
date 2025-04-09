@@ -3,18 +3,28 @@ import os
 from datetime import datetime
 from from_root import from_root
 
-
+# Define log file name with timestamp
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 
-log_path = os.path.join(from_root(), 'log', LOG_FILE)
+# Correct logs directory path
+log_folder = os.path.join(from_root(), 'logs')
 
-os.makedirs(log_path, exist_ok=True)
+# Ensure logs folder exists
+if not os.path.exists(log_folder):
+    os.makedirs(log_folder, exist_ok=True)
+    print(f"Created logs folder at: {log_folder}")  # Debugging message
 
-lOG_FILE_PATH = os.path.join(log_path, LOG_FILE)
+# Define full log file path
+LOG_FILE_PATH = os.path.join(log_folder, LOG_FILE)
 
+# Ensure logging writes to both file & console
 logging.basicConfig(
-    filename=lOG_FILE_PATH,
-    # time stamp and date, module name , log level name, log message
-    format= "[ %(asctime)s ] %(name)s - %(levelname)s - %(message)s",
-    level= logging.INFO
+    level=logging.INFO,
+    format="[ %(asctime)s ] %(name)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE_PATH),  # File logging
+        logging.StreamHandler()  # Console logging
+    ]
 )
+
+logging.info("Logging setup complete. Logs will be saved in the logs/ folder.")

@@ -172,3 +172,4 @@ cython_debug/
 
 CollectedImages/*
 artifacts/*
+yolov5/*
