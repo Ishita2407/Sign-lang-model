@@ -44,7 +44,6 @@ python app.py
 
 
 # Yes output
-![image](https://github.com/user-attachments/assets/e19b2a1c-30e8-47d4-a42a-71cd3df75618)
 ![image](https://github.com/user-attachments/assets/ac7fa04a-34c7-49c1-84c8-4bc92616f097)
 
 
