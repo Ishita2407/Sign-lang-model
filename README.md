@@ -1,4 +1,5 @@
 # Sign-lang-model
+![image](https://github.com/user-attachments/assets/b5a9072b-d671-4fc7-a0db-203d0ef41f0c)
 
 ## Workflows
 constants
@@ -36,10 +37,7 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-
-# data
-
-![image](https://github.com/user-attachments/assets/b5a9072b-d671-4fc7-a0db-203d0ef41f0c)
+## Project OUTPUT for detecting several actions
 
 # No ouput
 ![image](https://github.com/user-attachments/assets/10c0cfb5-9538-4560-93fb-cd5e7fca0c44)
