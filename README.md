@@ -55,7 +55,6 @@ python app.py
 ![image](https://github.com/user-attachments/assets/543d7abc-fa58-4a18-8208-10fcdf5960de)
 
 # Thanks output
-![image](https://github.com/user-attachments/assets/8aa892ad-6aa5-4926-b597-b842decac28a)
 ![image](https://github.com/user-attachments/assets/ceac64c8-1906-472b-8f41-64722a333407)
 
 
