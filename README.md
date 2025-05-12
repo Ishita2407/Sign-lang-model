@@ -1,4 +1,10 @@
 # Sign-lang-model
+![image](https://github.com/user-attachments/assets/e226d0db-e69d-4617-9770-daf05e715384)
+
+![image](https://github.com/user-attachments/assets/c7d4c1e0-57af-4855-9e1a-f75770490068)
+
+![image](https://github.com/user-attachments/assets/7cb31ea7-58ed-4829-b615-0183794c5354)
+
 ![image](https://github.com/user-attachments/assets/b5a9072b-d671-4fc7-a0db-203d0ef41f0c)
 
 ## Workflows
